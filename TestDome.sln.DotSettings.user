@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AEqualityAsserts_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FUsers_003FJOHNS_003FAppData_003FRoaming_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FSourcesCache_003Fec11489f13fea2ba3e5dfbdea086f41dac024556d53f318c75a75a2cbd73_003FEqualityAsserts_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=366C2AAA_002DB178_002D41C5_002DA4E6_002D9E7FDE7445E6/@EntryIndexedValue">B06545B7-5A8F-40F0-86F4-9283CC87EEB9</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=66FF97FF_002DE71F_002D4E4E_002DB642_002D1ACB6C93E1D7/@EntryIndexedValue">B06545B7-5A8F-40F0-86F4-9283CC87EEB9</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=6F07DB60_002D4DC4_002D4571_002D8A77_002DEA8897A76EF9/@EntryIndexedValue">B06545B7-5A8F-40F0-86F4-9283CC87EEB9</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=F12F9994_002DBF16_002D4363_002DA167_002D1BAD2F751FEA/@EntryIndexedValue">B06545B7-5A8F-40F0-86F4-9283CC87EEB9</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=xUnit/@EntryIndexedValue">33ff99d8-b1ad-4ed5-a4fd-376b97c2c841</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0612809b_002D795a_002D4cb0_002Db7da_002D4846915cd669/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;TestDomeTests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="C:\Dropbox\Code\wejdev\TestDome\TestDomeTests" Presentation="&amp;lt;TestDomeTests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	</wpf:ResourceDictionary>
