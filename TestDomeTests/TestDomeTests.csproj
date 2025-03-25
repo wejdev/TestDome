@@ -24,6 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <ProjectReference Include="..\Account\Account.csproj" />
         <ProjectReference Include="..\BoatMovements\BoatMovements.csproj" />
         <ProjectReference Include="..\GamePlatform\GamePlatform.csproj" />
         <ProjectReference Include="..\MalwareAnalysis\MalwareAnalysis.csproj"/>
