@@ -21,7 +21,8 @@ internal class MathExpression
             }
             else if (closing.Contains(c))
             {
-                if (stack.Count == 0 || stack.Peek() != pairs[c]) return false;
+                if (stack.Count == 0 || stack.Peek() != pairs[c])
+                    return false;
 
                 stack.Pop();
             }
