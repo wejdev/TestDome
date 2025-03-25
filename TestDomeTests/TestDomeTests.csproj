@@ -31,6 +31,7 @@
         <ProjectReference Include="..\MalwareAnalysis\MalwareAnalysis.csproj"/>
         <ProjectReference Include="..\MathExpression\MathExpression.csproj"/>
         <ProjectReference Include="..\MegaStore\MegaStore.csproj"/>
+        <ProjectReference Include="..\TwoSum\TwoSum.csproj" />
         <ProjectReference Include="..\UserInput\UserInput.csproj"/>
     </ItemGroup>
 
