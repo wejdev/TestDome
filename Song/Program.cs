@@ -3,12 +3,13 @@
 public class Song
 {
     private string _name;
-    public Song? NextSong { get; set; }
 
     public Song(string name)
     {
-        this._name = name;
+        _name = name;
     }
+
+    public Song? NextSong { get; set; }
 
     public bool IsInRepeatingPlaylist()
     {
@@ -17,7 +18,7 @@ public class Song
 
         while (fast?.NextSong != null)
         {
-            slow = slow.NextSong;
+            slow = slow?.NextSong;
             fast = fast.NextSong.NextSong;
 
             if (slow == fast)
@@ -45,8 +46,8 @@ public class Song
 
     public static void Main(string[] args)
     {
-        Song first = new Song("Hello");
-        Song second = new Song("Eye of the tiger");
+        var first = new Song("Hello");
+        var second = new Song("Eye of the tiger");
 
         first.NextSong = second;
         second.NextSong = first;
