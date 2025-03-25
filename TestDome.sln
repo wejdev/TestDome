@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaStore", "MegaStore\Mega
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoatMovements", "BoatMovements\BoatMovements.csproj", "{366C2AAA-B178-41C5-A4E6-9E7FDE7445E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExpression", "MathExpression\MathExpression.csproj", "{2A66D2B9-6947-40DA-8E4C-38486B0E80DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{366C2AAA-B178-41C5-A4E6-9E7FDE7445E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{366C2AAA-B178-41C5-A4E6-9E7FDE7445E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{366C2AAA-B178-41C5-A4E6-9E7FDE7445E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A66D2B9-6947-40DA-8E4C-38486B0E80DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A66D2B9-6947-40DA-8E4C-38486B0E80DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A66D2B9-6947-40DA-8E4C-38486B0E80DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A66D2B9-6947-40DA-8E4C-38486B0E80DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

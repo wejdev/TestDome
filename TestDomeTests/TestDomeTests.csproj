@@ -27,6 +27,7 @@
         <ProjectReference Include="..\BoatMovements\BoatMovements.csproj" />
         <ProjectReference Include="..\GamePlatform\GamePlatform.csproj" />
         <ProjectReference Include="..\MalwareAnalysis\MalwareAnalysis.csproj"/>
+        <ProjectReference Include="..\MathExpression\MathExpression.csproj" />
         <ProjectReference Include="..\MegaStore\MegaStore.csproj" />
     </ItemGroup>
 
