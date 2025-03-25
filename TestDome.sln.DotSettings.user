@@ -8,6 +8,7 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=6F07DB60_002D4DC4_002D4571_002D8A77_002DEA8897A76EF9/@EntryIndexedValue">B06545B7-5A8F-40F0-86F4-9283CC87EEB9</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=7344BB3E_002D5BEE_002D46A7_002DBE16_002D012D9BD7CC48/@EntryIndexedValue">B06545B7-5A8F-40F0-86F4-9283CC87EEB9</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=B8F52924_002DAC49_002D4A8E_002D9FC2_002D7D19D7F0D9AB/@EntryIndexedValue">B06545B7-5A8F-40F0-86F4-9283CC87EEB9</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=D30808E0_002D4EBF_002D4F41_002D93ED_002D8FB67F11B597/@EntryIndexedValue">B06545B7-5A8F-40F0-86F4-9283CC87EEB9</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=F12F9994_002DBF16_002D4363_002DA167_002D1BAD2F751FEA/@EntryIndexedValue">B06545B7-5A8F-40F0-86F4-9283CC87EEB9</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=xUnit/@EntryIndexedValue">33ff99d8-b1ad-4ed5-a4fd-376b97c2c841</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0612809b_002D795a_002D4cb0_002Db7da_002D4846915cd669/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;TestDomeTests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
