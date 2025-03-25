@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoatMovements", "BoatMoveme
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathExpression", "MathExpression\MathExpression.csproj", "{2A66D2B9-6947-40DA-8E4C-38486B0E80DB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInput", "UserInput\UserInput.csproj", "{7344BB3E-5BEE-46A7-BE16-012D9BD7CC48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{2A66D2B9-6947-40DA-8E4C-38486B0E80DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A66D2B9-6947-40DA-8E4C-38486B0E80DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A66D2B9-6947-40DA-8E4C-38486B0E80DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7344BB3E-5BEE-46A7-BE16-012D9BD7CC48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7344BB3E-5BEE-46A7-BE16-012D9BD7CC48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7344BB3E-5BEE-46A7-BE16-012D9BD7CC48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7344BB3E-5BEE-46A7-BE16-012D9BD7CC48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
