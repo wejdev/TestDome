@@ -1,29 +1,29 @@
-﻿using BoatMovements;
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
+using TestDome;
 
 namespace TestDomeTests;
 
-[TestSubject(typeof(BoatMovements.BoatMovements))]
+[TestSubject(typeof(BoatMovements))]
 public class BoatMovementsTests
 {
-    private static bool[,] gameMatrix =
+    private static readonly bool[,] gameMatrix =
     {
         { false, true, true, false, false, false },
         { true, true, true, false, false, false },
         { true, true, true, true, true, true },
         { false, true, true, false, true, true },
         { false, true, true, true, false, true },
-        { false, false, false, false, false, false },
+        { false, false, false, false, false, false }
     };
 
-    private static bool[,] minimalMatrix =
+    private static readonly bool[,] minimalMatrix =
     {
         { true, true, true },
         { true, true, true },
         { true, true, true }
     };
 
-    private static bool[,] secondMatrix =
+    private static readonly bool[,] secondMatrix =
     {
         { false, false, true, true, false },
         { false, false, true, false, false },
@@ -32,12 +32,12 @@ public class BoatMovementsTests
         { false, false, true, false, false }
     };
 
-    private static bool[,] oneByOneMatrix =
+    private static readonly bool[,] oneByOneMatrix =
     {
         { true }
     };
 
-    private static bool[,] emptyMatrix =
+    private static readonly bool[,] emptyMatrix =
     {
         { }
     };
@@ -87,7 +87,7 @@ public class BoatMovementsTests
     public void CanTravelToTest(bool[,] matrix, int fromRow, int fromColumn, int toRow, int toColumn, bool expected)
     {
         // Act
-        var actual = BoatMovements.BoatMovements.CanTravelTo(matrix, fromRow, fromColumn, toRow, toColumn);
+        var actual = BoatMovements.CanTravelTo(matrix, fromRow, fromColumn, toRow, toColumn);
 
         // Assert
         Assert.Equal(expected, actual);

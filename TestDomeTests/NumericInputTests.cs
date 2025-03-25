@@ -1,5 +1,5 @@
 ﻿using JetBrains.Annotations;
-using UserInput;
+using TestDome;
 
 namespace TestDomeTests;
 

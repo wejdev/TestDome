@@ -1,4 +1,4 @@
-﻿namespace BoatMovements;
+﻿namespace TestDome;
 
 public class BoatMovements
 {
@@ -13,18 +13,14 @@ public class BoatMovements
             fromRow < 0 || fromRow >= rows ||
             fromColumn < 0 || fromColumn >= cols
         )
-        {
             return false;
-        }
 
         if (fromRow == toRow)
         {
             var step = fromColumn < toColumn ? 1 : -1;
             for (var col = fromColumn; col != toColumn + step; col += step)
-            {
                 if (IsLand(gameMatrix, fromRow, col))
                     return false;
-            }
 
             return true;
         }
@@ -33,10 +29,8 @@ public class BoatMovements
         {
             var step = fromRow < toRow ? 1 : -1;
             for (var row = fromRow; row != toRow + step; row += step)
-            {
                 if (IsLand(gameMatrix, row, fromColumn))
                     return false;
-            }
 
             return true;
         }
@@ -59,7 +53,7 @@ public class BoatMovements
             { true, true, true, true, true, true },
             { false, true, true, false, true, true },
             { false, true, true, true, false, true },
-            { false, false, false, false, false, false },
+            { false, false, false, false, false, false }
         };
 
         Console.WriteLine(CanTravelTo(gameMatrix, 3, 2, 2, 2)); // true, Valid move
@@ -67,4 +61,3 @@ public class BoatMovements
         Console.WriteLine(CanTravelTo(gameMatrix, 3, 2, 6, 2)); // false, Out of bounds
     }
 }
-

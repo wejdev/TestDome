@@ -1,9 +1,10 @@
 ﻿using JetBrains.Annotations;
-using Access = Account.Account.Access;
+using TestDome;
+using Access = TestDome.Account.Access;
 
 namespace TestDomeTests;
 
-[TestSubject(typeof(Account.Account))]
+[TestSubject(typeof(Account))]
 public class AccountTests
 {
     [Fact]

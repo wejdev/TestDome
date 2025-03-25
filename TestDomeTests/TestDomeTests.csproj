@@ -24,13 +24,14 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Account\Account.csproj" />
-        <ProjectReference Include="..\BoatMovements\BoatMovements.csproj" />
-        <ProjectReference Include="..\GamePlatform\GamePlatform.csproj" />
+        <ProjectReference Include="..\Account\Account.csproj"/>
+        <ProjectReference Include="..\BoatMovements\BoatMovements.csproj"/>
+        <ProjectReference Include="..\Folders\Folders.csproj"/>
+        <ProjectReference Include="..\GamePlatform\GamePlatform.csproj"/>
         <ProjectReference Include="..\MalwareAnalysis\MalwareAnalysis.csproj"/>
-        <ProjectReference Include="..\MathExpression\MathExpression.csproj" />
-        <ProjectReference Include="..\MegaStore\MegaStore.csproj" />
-        <ProjectReference Include="..\UserInput\UserInput.csproj" />
+        <ProjectReference Include="..\MathExpression\MathExpression.csproj"/>
+        <ProjectReference Include="..\MegaStore\MegaStore.csproj"/>
+        <ProjectReference Include="..\UserInput\UserInput.csproj"/>
     </ItemGroup>
 
 </Project>

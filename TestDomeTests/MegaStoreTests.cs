@@ -5,7 +5,6 @@ namespace TestDomeTests;
 [TestSubject(typeof(MegaStore))]
 public class MegaStoreTests
 {
-
     [Theory]
     [InlineData(12, 100, MegaStore.DiscountType.Weight, 82)]
     [InlineData(1, 100, MegaStore.DiscountType.Weight, 94)]

@@ -1,4 +1,4 @@
-﻿namespace UserInput;
+﻿namespace TestDome;
 
 public class TextInput
 {
@@ -27,7 +27,7 @@ public class TextInput
 
 public class NumericInput : TextInput
 {
-    public NumericInput() : base()
+    public NumericInput()
     {
     }
 

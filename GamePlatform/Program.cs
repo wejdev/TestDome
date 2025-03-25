@@ -1,4 +1,4 @@
-﻿namespace GamePlatform;
+﻿namespace TestDome;
 
 internal class GamePlatform
 {
@@ -23,7 +23,6 @@ internal class GamePlatform
 
     public static void Main(string[] args)
     {
-        Console.WriteLine(CalculateFinalSpeed(60, new int[] { 0, 30, 0, -45, 0 }));
+        Console.WriteLine(CalculateFinalSpeed(60, new[] { 0, 30, 0, -45, 0 }));
     }
 }
-
