@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadraticEquation", "Quadra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortedSearch", "SortedSearch\SortedSearch.csproj", "{62D11004-CEBA-4CC7-9F78-A445D16DB711}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinarySearchTree\BinarySearchTree.csproj", "{8D63A884-E786-48C1-BEF1-FEFD72CC3169}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{62D11004-CEBA-4CC7-9F78-A445D16DB711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62D11004-CEBA-4CC7-9F78-A445D16DB711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62D11004-CEBA-4CC7-9F78-A445D16DB711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D63A884-E786-48C1-BEF1-FEFD72CC3169}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D63A884-E786-48C1-BEF1-FEFD72CC3169}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D63A884-E786-48C1-BEF1-FEFD72CC3169}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D63A884-E786-48C1-BEF1-FEFD72CC3169}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

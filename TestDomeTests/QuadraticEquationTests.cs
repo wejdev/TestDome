@@ -20,11 +20,15 @@ public class QuadraticEquationTests
         AssertTupleEqualsEitherOrder(expected, actual);
     }
 
-    void AssertTupleEqualsEitherOrder((double, double) expected, (double, double) actual, double tolerance = 1e-6)
+    private void AssertTupleEqualsEitherOrder((double, double) expected, (double, double) actual,
+        double tolerance = 1e-6)
     {
-        bool Match(double a, double b) => Math.Abs(a - b) < tolerance;
+        bool Match(double a, double b)
+        {
+            return Math.Abs(a - b) < tolerance;
+        }
 
-        bool matches =
+        var matches =
             (Match(actual.Item1, expected.Item1) && Match(actual.Item2, expected.Item2)) ||
             (Match(actual.Item1, expected.Item2) && Match(actual.Item2, expected.Item1));
 

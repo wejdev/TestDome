@@ -24,17 +24,18 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\AccountTest\AccountTest.csproj" />
+        <ProjectReference Include="..\AccountTest\AccountTest.csproj"/>
         <ProjectReference Include="..\Account\Account.csproj"/>
+        <ProjectReference Include="..\BinarySearchTree\BinarySearchTree.csproj"/>
         <ProjectReference Include="..\BoatMovements\BoatMovements.csproj"/>
         <ProjectReference Include="..\Folders\Folders.csproj"/>
         <ProjectReference Include="..\GamePlatform\GamePlatform.csproj"/>
         <ProjectReference Include="..\MalwareAnalysis\MalwareAnalysis.csproj"/>
         <ProjectReference Include="..\MathExpression\MathExpression.csproj"/>
         <ProjectReference Include="..\MegaStore\MegaStore.csproj"/>
-        <ProjectReference Include="..\QuadraticEquation\QuadraticEquation.csproj" />
+        <ProjectReference Include="..\QuadraticEquation\QuadraticEquation.csproj"/>
         <ProjectReference Include="..\Song\Song.csproj"/>
-        <ProjectReference Include="..\SortedSearch\SortedSearch.csproj" />
+        <ProjectReference Include="..\SortedSearch\SortedSearch.csproj"/>
         <ProjectReference Include="..\TwoSum\TwoSum.csproj"/>
         <ProjectReference Include="..\UserInput\UserInput.csproj"/>
     </ItemGroup>

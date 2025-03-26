@@ -2,20 +2,20 @@
 
 public class AccountTest
 {
-    public double Balance { get; private set; }
-    public double OverdraftLimit { get; private set; }
-
     public AccountTest(double overdraftLimit)
     {
-        this.OverdraftLimit = overdraftLimit > 0 ? overdraftLimit : 0;
-        this.Balance = 0;
+        OverdraftLimit = overdraftLimit > 0 ? overdraftLimit : 0;
+        Balance = 0;
     }
+
+    public double Balance { get; private set; }
+    public double OverdraftLimit { get; }
 
     public bool Deposit(double amount)
     {
         if (amount >= 0)
         {
-            this.Balance += amount;
+            Balance += amount;
             return true;
         }
 
@@ -24,9 +24,9 @@ public class AccountTest
 
     public bool Withdraw(double amount)
     {
-        if (this.Balance - amount >= -this.OverdraftLimit && amount >= 0)
+        if (Balance - amount >= -OverdraftLimit && amount >= 0)
         {
-            this.Balance -= amount;
+            Balance -= amount;
             return true;
         }
 
@@ -34,7 +34,7 @@ public class AccountTest
     }
 
 
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
     }

@@ -6,7 +6,6 @@ namespace TestDomeTests;
 [TestSubject(typeof(AccountTest))]
 public class AccountTestTests
 {
-
     [Fact]
     public void DepositRejectsNegativeNumberTest()
     {
@@ -37,7 +36,6 @@ public class AccountTestTests
         Assert.False(succeeded);
         Assert.Equal(0, balancePrior);
         Assert.Equal(0, balanceAfter);
-
     }
 
     [Fact]

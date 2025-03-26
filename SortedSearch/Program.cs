@@ -9,7 +9,7 @@ public class SortedSearch
 
         while (left < right)
         {
-            int mid = left + (right - left) / 2;
+            var mid = left + (right - left) / 2;
 
             if (sortedArray[mid] < lessThan)
                 left = mid + 1;
@@ -23,7 +23,7 @@ public class SortedSearch
 
     public static void Main(string[] args)
     {
-        Console.WriteLine(SortedSearch.CountNumbers(new int[] { 1, 3, 5, 7 }, 4));
+        Console.WriteLine(CountNumbers(new[] { 1, 3, 5, 7 }, 4));
     }
 }
 /*

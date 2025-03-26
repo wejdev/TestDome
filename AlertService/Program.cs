@@ -1,26 +1,26 @@
 ﻿namespace TestDome;
 
-class AlertService
+internal class AlertService
 {
+    private readonly IAlertDAO _storage;
+
     public AlertService(IAlertDAO alertDAO)
     {
         _storage = alertDAO;
     }
 
-    private readonly IAlertDAO _storage;
-
     public Guid RaiseAlert()
     {
-        return this._storage.AddAlert(DateTime.Now);
+        return _storage.AddAlert(DateTime.Now);
     }
 
     public DateTime GetAlertTime(Guid id)
     {
-        return this._storage.GetAlert(id);
+        return _storage.GetAlert(id);
     }
 
 
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
     }
@@ -34,18 +34,18 @@ public interface IAlertDAO
 
 public class AlertDAO : IAlertDAO
 {
-    private readonly Dictionary<Guid, DateTime> alerts = new Dictionary<Guid, DateTime>();
+    private readonly Dictionary<Guid, DateTime> alerts = new();
 
     public Guid AddAlert(DateTime time)
     {
-        Guid id = Guid.NewGuid();
-        this.alerts.Add(id, time);
+        var id = Guid.NewGuid();
+        alerts.Add(id, time);
         return id;
     }
 
     public DateTime GetAlert(Guid id)
     {
-        return this.alerts[id];
+        return alerts[id];
     }
 }
 
