@@ -36,6 +36,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearchTree", "BinaryS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainComposition", "TrainComposition\TrainComposition.csproj", "{377CC5DF-7A6B-46A8-AD15-A430A855626C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorStream", "DecoratorStream\DecoratorStream.csproj", "{339910CB-E384-4F48-A0E1-10D78A6529BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +116,9 @@ Global
 		{377CC5DF-7A6B-46A8-AD15-A430A855626C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{377CC5DF-7A6B-46A8-AD15-A430A855626C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{377CC5DF-7A6B-46A8-AD15-A430A855626C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339910CB-E384-4F48-A0E1-10D78A6529BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339910CB-E384-4F48-A0E1-10D78A6529BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339910CB-E384-4F48-A0E1-10D78A6529BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339910CB-E384-4F48-A0E1-10D78A6529BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
