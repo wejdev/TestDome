@@ -4,9 +4,15 @@ namespace TestDome;
 
 public class DecoratorStream : Stream
 {
-    private readonly Stream _stream;
     private readonly string _prefix;
-    private bool _prefixWritten = false;
+    private readonly Stream _stream;
+    private bool _prefixWritten;
+
+    public DecoratorStream(Stream stream, string prefix)
+    {
+        _stream = stream ?? throw new ArgumentNullException(nameof(stream));
+        _prefix = prefix ?? "";
+    }
 
     public override bool CanSeek => false;
     public override bool CanWrite => true;
@@ -17,12 +23,6 @@ public class DecoratorStream : Stream
     {
         get => throw new NotSupportedException();
         set => throw new NotSupportedException();
-    }
-
-    public DecoratorStream(Stream stream, string prefix)
-    {
-        this._stream = stream ?? throw new ArgumentNullException(nameof(stream));
-        this._prefix = prefix ?? "";
     }
 
     public override void SetLength(long length)
